@@ -47,7 +47,7 @@ namespace BarCodeGenerator
             var imageFormat = (BarCodeImageFormat)Enum.Parse(typeof(BarCodeImageFormat), imageType.ToString());
             //значение по умолчанию
             var encodeType = EncodeTypes.Code128;
-
+            //
             if (!string.IsNullOrEmpty(comboBarcodeType.Text))
             {
                 switch (comboBarcodeType.Text)
